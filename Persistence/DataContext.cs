@@ -5,7 +5,7 @@ namespace Persistence
 {
     public class DataContext : DbContext
     {
-        protected DataContext(DbContextOptions options) : base(options)
+        public DataContext(DbContextOptions options) : base(options)
         {
 
         }

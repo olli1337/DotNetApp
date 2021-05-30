@@ -36,7 +36,7 @@ namespace API
             });
             services.AddDbContext<DataContext>(opt =>
             {
-                opt.UseSqlite(_config.GetConnectionString("Default"));
+                opt.UseSqlite(_config.GetConnectionString("DefaultConnection"));
             });
         }
 
