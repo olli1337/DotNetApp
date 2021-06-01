@@ -1,0 +1,19 @@
+Domain layer is the core of the clean architecture. 
+->Our domain contains domain entities: classes that form the core of the business logic for our application.
+->Domain entities are also used to model and form the database and relations.
+
+Application layer is on top of Domain layer.
+->Has dependency on Domain layer.
+->Has dependency on Persistence layer.
+->Responsible for executing business logic.
+->All domain entities are accessible from application layer.
+->Uses Domain entities to query Persistence layer & database.
+
+API layer is on top of Application layer.
+->Has dependency on Application layer.
+->Serves business logic to clients.
+
+Persistence layer is "separated" from the previous layers.
+->Has dependency on Domain layer.
+->Has dependency on Application layer.
+->Is used to query data from database.
