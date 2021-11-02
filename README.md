@@ -13,16 +13,16 @@ Software architecture is based on the "Clean Architecture" (CA) defined by Uncle
 The application is separated into five different subprojects. This is done to better endorse the Clean Architecture approach.
 
 ### Client-App
-* Client-App project represents the user interface layer _(CA, Frameworks & Drivers)._
+* Client-App project represents the user interface layer.
   * Utilizes API endpoints to consume business logic.
 
 ### API 
-* API project represents the controller layer _(CA, Interface Adapter)._
+* API project represents the controller layer.
   * Has dependency on the Application layer.
   * Serves business logic to clients.
     
 ### Application
-* Application project represents the business logic layer _(CA, Application Business Rules)._
+* Application project represents the business logic & use cases layer.
   * Has dependency on the Domain layer.
   * Has dependency on the Persistence layer.
   * Responsible for executing business logic.
@@ -30,7 +30,7 @@ The application is separated into five different subprojects. This is done to be
   * Uses Domain entities to query Persistence layer & database.
     
 ### Domain 
-* Domain project represents the business logic entities _(CA, Enterprise Business Rules)._
+* Domain project represents the business logic entities.
   * Our domain contains domain entities: classes that form the core of the business logic for our application.
   * Domain entities are also used to model and form the database and relations.
     
