@@ -10,7 +10,7 @@ Software architecture is based on the "Clean Architecture" (CA) defined by Uncle
 
 ## Project hierarchy
 
-The application is separated into four different subprojects. This is done to better endorse the Clean Architecture approach.
+The application is separated into five different subprojects. This is done to better endorse the Clean Architecture approach.
 
 ### Client-App
 * Client-App project represents the user interface layer _(CA, Frameworks & Drivers)._
