@@ -4,7 +4,7 @@ ASP.NET Core & React (TypeScript) based reference web app project.
 
 ## Project architecture 
 
-Software architecture is based on the "Clean Architecture" (CA) defined by Uncle Bob:
+Software architecture is based on the "Clean Architecture" defined by Uncle Bob:
 
 ![image](https://user-images.githubusercontent.com/10494986/139955997-b575c13e-f631-4f61-b289-c9e25d409d2b.png)
 
