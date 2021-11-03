@@ -46,10 +46,10 @@ The project consists of separate front-end and back-end implementations. These c
 
 ### Front-end
  * Start in debug mode
-  * Navigate to /Client-App and run "npm start"
-  * In case of errors try running "npm i" 
+    * Navigate to /Client-App and run "npm start"
+    * In case of errors try running "npm i" 
 
 ### Back-end
  * Start in debug mode
-  * Navigate to /API and run "dotnet watch run"
-  * In case of errors try running "dotnet restore" 
+   * Navigate to /API and run "dotnet watch run"
+   * In case of errors try running "dotnet restore" 
