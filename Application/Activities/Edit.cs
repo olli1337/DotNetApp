@@ -37,7 +37,7 @@ namespace Application.Activities
                 _mapper.Map(request.Activity, activity);
                 // Save changes and return
                 await _context.SaveChangesAsync();
-
+ 
                 return Unit.Value;
             }
         }
