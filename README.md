@@ -45,11 +45,11 @@ The application is separated into five different subprojects. This is done to be
 The project consists of separate front-end and back-end implementations. These can be run and debugged separately.
 
 ### Front-end
- * Start in debug mode
+ * Start in debug mode:
     * Navigate to /Client-App and run "npm start"
     * In case of errors try running "npm i" 
 
 ### Back-end
- * Start in debug mode
+ * Start in debug mode:
    * Navigate to /API and run "dotnet watch run"
    * In case of errors try running "dotnet restore" 
