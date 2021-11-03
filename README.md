@@ -39,3 +39,17 @@ The application is separated into five different subprojects. This is done to be
   * Has dependency on the Domain layer.
   * Has dependency on the Application layer.
   * Is used to query data from database.
+
+## Project development & debugging
+
+The project consists of separate front-end and back-end implementations. These can be run and debugged separately.
+
+### Front-end
+ * Start in debug mode
+  * Navigate to /Client-App and run "npm start"
+  * In case of errors try running "npm i" 
+
+### Back-end
+ * Start in debug mode
+  * Navigate to /API and run "dotnet watch run"
+  * In case of errors try running "dotnet restore" 
