@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Header, List } from 'semantic-ui-react';
+import { Container, Header, List } from 'semantic-ui-react';
 import { Activity } from '../models/activity';
 import NavBar from './NavBar';
 
 
 function App() {
-  
+
   const [activities, setActctivities] = useState<Activity[]>([])
-  
+
   useEffect(() => {
     axios.get<Activity[]>('http://localhost:5000/api/activities').then(response => {
       setActctivities(response.data)
@@ -18,13 +18,15 @@ function App() {
   return (
     <div>
       <NavBar />
+      <Container style={{marginTop: '7em'}}>
         <List>
           {activities.map((activity) => (
             <List.Item key={activity.id}>
-                {activity.title} 
+              {activity.title}
             </List.Item>
           ))}
         </List>
+      </Container>
     </div>
   );
 }
