@@ -15,6 +15,10 @@ The application is separated into five different subprojects. This is done to be
 ### Client-App
 * Client-App project represents the user interface layer.
   * Utilizes API endpoints to consume business logic.
+* Built with React, TypeScript and Semantic UI.
+  * React allows us to build user interfaces with modular and reusable components.
+  * TypeScript introduces strong typing and better support for object-oriented programming.
+  * Semantic UI is a framework for developing beautiful and responsive layouts easily.
 
 ### API 
 * API project represents the controller layer.
