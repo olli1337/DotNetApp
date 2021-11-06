@@ -33,7 +33,7 @@ export default function ActivityForm({activity: selectedActivity, closeForm, cre
 
     return(
         <Segment clearing>
-            <Form onSubmit={handleSubmit} autocomplete='off' >
+            <Form onSubmit={handleSubmit} autoComplete='off' >
                 <Form.Input placeholder='Title' value={activity.title} name='title' onChange={handleInputChange} />
                 <Form.TextArea placeholder='Description' value={activity.description} name='description' onChange={handleInputChange} />
                 <Form.Input placeholder='Category' value={activity.category} name='category' onChange={handleInputChange} />
