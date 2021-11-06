@@ -1,5 +1,5 @@
 import { ChangeEvent, useState } from 'react';
-import { Button, Form, FormInput, Segment } from 'semantic-ui-react';
+import { Button, Form, Segment } from 'semantic-ui-react';
 import { Activity } from '../../../app/models/activity';
 
 interface Props {
