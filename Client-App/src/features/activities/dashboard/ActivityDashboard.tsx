@@ -11,11 +11,7 @@ export default function ActivityDashboard({activities}: Props) {
     return (
         <Grid>
             <Grid.Column width='10'>
-                <List>
-                    {activities.map((activity) => (
-                        <Activitylist activities={activities} />
-                    ))}
-                </List>
+                <Activitylist activities={activities} />
             </Grid.Column>
         </Grid>
     )
